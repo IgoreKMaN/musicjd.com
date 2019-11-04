@@ -21,16 +21,13 @@ a.nav-link {
     font-family: 'Dosis', sans-serif;
     text-transform: uppercase;
     margin-right: 44px;
+    padding-left: 1px!important;
+    padding-right: 1px!important;
 }
 
 a:hover{
     border-bottom: 2px solid rgba(0,0,0,.3);
     transition: border-bottom .2s;
-}
-
-#n-link {
-    padding-left: 1px;
-    padding-right: 1px;
 }
 
 nav .active {
@@ -43,4 +40,56 @@ nav .active {
 
 .main-img img {
     width: 100%;
+}
+
+.discography-heading{
+    text-align: center;
+    padding-top: 66px;
+    padding-bottom: 50px;
+}
+
+.discogtaphy-albom{
+    padding-top: 144px;
+}
+
+.center{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.albom-item{
+    text-align: center;
+    padding-bottom: 110px;
+}
+
+.left{
+    text-align: left;
+}
+
+.discography-albom{
+    font-size: 14px;
+}
+
+.discography-year{
+    border-bottom: 1px solid #000;
+    padding-bottom: 12px;
+    color: #595959;
+}
+
+.discography-albom-name{
+    padding-top: 10px;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.discography-albom-title{
+    font-size: 23px;
+}
+
+.discography-albom-description p{
+    color: #acacac;
+}
+
+.discography-play{
+    padding-top: 16px;
 }
