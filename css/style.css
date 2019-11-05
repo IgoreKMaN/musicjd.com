@@ -30,7 +30,7 @@ a.nav-link {
     padding-right: 1px !important;
 }
 
-a:hover {
+nav a:hover {
     border-bottom: 2px solid rgba(0, 0, 0, .3);
     transition: border-bottom .2s;
 }
@@ -103,3 +103,4 @@ nav .active {
 .discography-play {
     padding-top: 16px;
 }
+
