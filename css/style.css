@@ -47,19 +47,25 @@ nav .active {
     width: 100%;
 }
 
-.discography-heading {
+.discography-heading, .concert-heading{
     text-align: center;
     padding-top: 66px;
     padding-bottom: 50px;
 }
 
-.discogtaphy-albom {
+.discogtaphy-albom, .concert-albom {
     padding-top: 144px;
     padding-bottom: 342px;
     background-image: url(../img/discography-bottom.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: bottom center;
+    font-size: 14px;
+}
+
+.concert-albom{
+    background-image: url(../img/concert-bottom.png);
+    padding-bottom: 137px;
 }
 
 .center {
@@ -76,31 +82,40 @@ nav .active {
     text-align: left;
 }
 
-.discography-albom {
-    font-size: 14px;
-}
-
-.discography-year {
+.discography-year, .concert-year {
     border-bottom: 1px solid #000;
     padding-bottom: 12px;
     color: #595959;
 }
 
-.discography-albom-name {
+.discography-albom-name, .concert-name {
     padding-top: 10px;
     color: #000;
     text-transform: uppercase;
 }
 
-.discography-albom-title {
+.discography-albom-title, .concert-title {
     font-size: 23px;
 }
+.concert-title{
+    padding-top: 84px;
+}
 
-.discography-albom-description p {
+
+.discography-albom-description p, concert-description p {
     color: #acacac;
 }
 
-.discography-play {
+.discography-play, .concert-buy {
     padding-top: 16px;
 }
 
+.concert-buy{
+    padding-top: 26px;
+}
+
+.concert-buy a{
+    color: #000;
+    padding: 23px 45px 21px 53px;
+    border: 1px solid #afb2b2;
+}
