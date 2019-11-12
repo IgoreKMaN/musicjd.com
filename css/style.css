@@ -69,12 +69,12 @@ nav .active {
     width: 100%;
 }
 
-.discography-description, .concert-description{
+.discography-description, .concert-description, .composition-description{
     font-size: 14px;
     font-family: 'OpenSans', sans-serif;
 }
 
-.discography-heading, .concert-heading{
+.discography-heading, .concert-heading, .composition-heading{
     text-align: center;
     padding-top: 66px;
     padding-bottom: 50px;
@@ -135,7 +135,7 @@ nav .active {
 }
 
 
-.discography-albom-description p, concert-description p {
+.discography-albom-description p, concert-albom-description p {
     color: #acacac;
     font-family: 'OpenSans', sans-serif;
     font-size: 14px;
@@ -155,6 +155,7 @@ nav .active {
     border: 1px solid #afb2b2;
     font-family: 'OpenSans-Bold', sans-serif;
     font-size: 14px;
+    font-weight: bold;
 }
 
 .concert-buy a:hover{
