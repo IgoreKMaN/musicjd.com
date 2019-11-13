@@ -95,12 +95,18 @@ nav .active {
     padding-bottom: 137px;
 }
 
+.composition-list{
+    padding-top: 144px;
+    padding-bottom: 342px;
+    font-size: 14px;
+}
+
 .center {
     margin: 0 auto;
     text-align: center;
 }
 
-.albom-item {
+.albom-item, .composition-item{
     text-align: center;
     padding-bottom: 110px;
 }
@@ -109,7 +115,7 @@ nav .active {
     text-align: left;
 }
 
-.discography-year, .concert-year {
+.discography-year, .concert-year, .composition-year{
     border-bottom: 1px solid #000;
     padding-bottom: 12px;
     color: #595959;
@@ -118,7 +124,7 @@ nav .active {
     
 }
 
-.discography-albom-name, .concert-name {
+.discography-albom-name, .concert-name, .composition-name{
     padding-top: 10px;
     color: #000;
     text-transform: uppercase;
@@ -164,4 +170,9 @@ nav .active {
 
 .concert-buy a span{
     padding-left: 18px;
+}
+
+.composition-item{
+    background-color: #f5f6f6;
+    margin-bottom: 54px;
 }
