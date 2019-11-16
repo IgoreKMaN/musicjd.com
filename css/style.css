@@ -74,6 +74,10 @@ nav .active {
     font-family: 'OpenSans', sans-serif;
 }
 
+.composition-description{
+    padding-bottom: 63px;
+}
+
 .discography-heading, .concert-heading, .composition-heading{
     text-align: center;
     padding-top: 66px;
@@ -175,4 +179,42 @@ nav .active {
 .composition-item{
     background-color: #f5f6f6;
     margin-bottom: 54px;
+    padding-bottom: 0px;
+}
+
+.composition-item-text{
+    padding: 35px 20px 37px 20px;
+}
+
+.composition-title{
+    padding-top: 48px;
+    padding-bottom: 37px;
+}
+
+.composition-item-text a{
+    font-family: 'OpenSans-Bold', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 23px 34px 21px 35px;
+    color: #000;
+    border: 1px solid #b5b5b5;
+        
+}
+
+.visit-itunes{
+    padding: 23px 0px 21px 0px;
+}
+
+.visit-itunes a span{
+    padding-left: 13px;
+}
+
+.composition-item-img-1 img{
+    width: 100%;
+}
+
+.composition-item-img-1{
+    background-image: url(../img/Composition_img1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
 }
