@@ -96,7 +96,11 @@ nav .active {
 
 .concert-albom{
     background-image: url(../img/concert-bottom.png);
-    padding-bottom: 137px;
+    /*padding-bottom: 137px;*/
+}
+
+.composition{
+    padding-top: 96px;
 }
 
 .composition-list{
