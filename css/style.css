@@ -20,6 +20,11 @@
 	src: url('../fonts/dosis-regular.ttf') format('truetype'); 
 }
 
+body, html{
+    margin: 0;
+    padding: 0;
+}
+
 div.row{
     margin-left: 0;
     margin-right: 0;
@@ -32,6 +37,7 @@ div.row{
     top: 0;
     background-color: rgba(229, 230, 230, .5);
     padding: 0; 
+    z-index: 999;
 }
 
 .navbar-nav {
@@ -193,6 +199,8 @@ nav .active {
 .composition-title{
     padding-top: 48px;
     padding-bottom: 37px;
+    font-family: 'OpenSans', sans-serif;
+    font-size: 23px;
 }
 
 .composition-item-text a{
